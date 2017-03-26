@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    margin: 0px;
+}
+
+
+//---------nav
+
+
+.navtop{
+
+	margin-left: 30px;
+	margin-top: 15px;
+	background-color: lightgrey;
+	background: linear-gradient(lightgrey, white);
+	margin-right: 30px;
+	font-size: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 10px lightgrey;
+
+
+
+img{
+	height: 60px;
+	width: 65px;
+	border-radius: 50%;
+}
+
+.navinput{
+	width: 500px;
+	height: 40px;
+	font-size: 20px;
+	vertical-align: middle;
+	border-radius: 4px;
+
+}
+
+input[type=text] {
+    padding-left: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.me{
+	width: 40px;
+	height: 40px;
+	margin-left: 230px;
+}
+
+p{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#plus{
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+#down{
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	margin-left: -8px;
+	margin-top: 5px;
+}
+}
+
+
+//-------------left div
+
+
+
+.left{
+	width: 20%;
+	margin-left: 60px;
+	margin-top: 30px;
+
+
+	.meleft{
+		width: 95%;
+		height: 280px;
+		border-radius: 5px;
+	}
+
+#username{
+	margin: 0px;
+	color: grey;
+}
+}
+
+
+
+.title{
+
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	margin-top: 20px;
+
+	#circuit{
+		color: lightgrey;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		vertical-align: middle;
+		opacity: 0.5;
+	
+	}
+	p{
+		display: inline-block;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+}
+
+.info{
+
+	border-bottom: 1px solid lightgrey;
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+	#icon{
+		display: inline-block;
+		opacity: 0.5;
+	}
+
+	p{
+		display: inline-block;
+		padding-left: 5px;
+	}
+}
+
+
+.numbers{
+	text-align: center;
+	padding-top: 20px;
+	h1{
+	display: inline;
+	text-align: center;
+	margin-right: 60px;
+}
+}
+
+.followbottom{
+	text-align: center;
+	padding-top: 5px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+	p{
+	display: inline;
+	text-align: center;
+	margin-right: 47px;
+}
+
+#org{
+
+	margin-top: 20px;
+}
+
+
+}
+
+//-------right
+
+.right{
+	display: inline-block;
+
+	.nav{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+
+#edit{
+	float: right;
+	border-radius: 5px;
+	background-color: #f4f4f4;
+	font-weight: bold;
+	border: 1px solid darken(#f4f4f4, 20);
+	padding: 2px 15px;
+}
+
+#pencil{
+
+	margin-right: 5px;
+}
+
+.find{
+	margin-top: 20px;
+	width: 320px;
+	height: 45px;
+	border-radius: 3px;
+	}
+
+
+input[type=text] {
+    padding-left: 10px;
+	}
+
+	.find[type=text]:focus {
+    outline: none;
+	}
+
+.findbutton{
+	height: 45px;
+	border-radius: 5px;
+	background-color: #f4f4f4;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid darken(#f4f4f4, 20);
+	padding: 2px 15px;
+	margin-left: 3px;
+}
+
+.findlist{
+	display: inline-block;
+	margin-left: 125px;
+	li{
+		display: inline-block;
+		margin-right: 8px;
+		font-size: 18px;
+		.newbutton{
+			background: linear-gradient(#6DB539, #6DB531);
+			height: 50px;
+			color: white;
+			padding: 4px 15px;
+			border-radius: 5px;
+			font-size: 18px;
+		#repo{
+			filter: invert(100%);
+			margin-right: 5px;
+			height:23px;
+
+		}
+		}
+	}
+}
+}
+
+
+hr{
+	margin-bottom: 0px;
+}
+.rrow{
+	padding-bottom: 160px;
+	padding-top: 20px;
+	border-bottom: 1px solid lightgrey;
+	font-weight: bold;
+}
+
+#repoName{
+	color: blue;
+	font-size: 26px;
+}
+
+#repoLanguage{
+	font-size: 14px;
+	display: inline-block;
+}
+
+#star{
+	display: inline-block;
+}
+
+#repoLanguages{
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#repoLanguagez{
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#commit{
+	height: 50px;
+	width: 50px;
+	opacity: 0.5;
+}
+
+.commitHolder{
+	padding: 0px;
+}
+
+#push{
+	padding: 0px;
+	font-size: 20px;
+}
+
+.commitText{
+	padding: 0px;
+	font-size: 14px;
+}
+
+#meFirstImg{
+	height: 40px;
+	width: 40px;
+	vertical-align: top;
+}
+
+#meSecondImg{
+	height: 20px;
+	width: 20px;
+	vertical-align: top;
+}
+
+#pushId{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	font-size: 18px;
+}
+
+
+
+
+
